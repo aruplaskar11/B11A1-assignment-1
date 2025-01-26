@@ -44,10 +44,7 @@ nav ul li a {
 
 }
 
-/* .navbar-container{
-    justify-content: ;
-    
-} */
+
 .btn {
     width: 116px;
     padding: 15px 30px;
@@ -57,6 +54,7 @@ nav ul li a {
     border: 1px solid #006A50;
     border-radius: 8px;
     /* border: none; */
+    cursor: pointer;
 }
 
 /* banner */
@@ -92,7 +90,7 @@ nav ul li a {
     margin-bottom: 24px;
 }
 
-/ .banner-imgbox {
+.banner-imgbox {
     text-align: right;
 }
 
@@ -106,8 +104,15 @@ nav ul li a {
     background-color: #006A50;
     padding: 17px 34px 17px 34px;
     border-radius: 8px;
+    cursor: pointer;
 
 }
+
+.bhr:hover {
+    background-color: #4d3c8c;
+  }
+
+
 
 /* pillar */
 .pillar-container {
@@ -198,6 +203,7 @@ nav ul li a {
     border-radius: 8px;
     border: none;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 .btn-third3 {
@@ -210,6 +216,7 @@ nav ul li a {
     border-radius: 8px;
     border: none;
     margin-top: 24px;
+    cursor: pointer;
 
 }
 
@@ -223,6 +230,7 @@ nav ul li a {
     border-radius: 8px;
     border: none;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 /* quote design */
@@ -318,6 +326,7 @@ color:rgba(14, 14, 14, 0.7);
     background-color: #006A50;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .news-card{
@@ -514,3 +523,50 @@ margin-bottom: ;
     color: rgba(14, 14, 14, 0.7);
     margin-top: 30px;
   }
+/* footer */
+
+  footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+.fftooter{
+    margin-top: 80px;
+}
+#footer-sec{
+
+}
+.footer{
+
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    text-align: center;
+    margin-bottom: 31px;
+
+}
+
+.ft-hr{
+    width: 1100px;
+    height: 2px;
+    border: 1px solid white;
+    margin: 0 auto;
+    
+
+}
+
+.icons-container{
+
+}
+.footer-icons{
+    margin-top: 32px;
+    display: flex;
+    
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
