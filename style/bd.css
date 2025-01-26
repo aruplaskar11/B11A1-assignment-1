@@ -227,18 +227,30 @@ nav ul li a {
 
 /* quote design */
 .quote{
-    height: 230px;
     margin-top: 32px;
     box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.08);
 border-radius: 16px;}
     
-.quote-box{
-    margin-left: 24px;
-    padding: 48px 24px 48px 0;
+
+
+.quote-box1{
+    
+    padding: 12px 6px 0 12px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+.quote-box2{
     background: url('../assets/quote-bg.png');
      background-repeat: no-repeat;
     background-position: left top;
-    text-align: left;
+    border: 1px solid white;
+
+    
+}
+.quote-box3{
+    padding: 10px 10px 0 0;
+    text-align: justify;
 }
 
 
@@ -255,8 +267,163 @@ border-radius: 16px;}
     color: rgba(14, 14, 14, 0.8);
 }
 .quote-dgi{
-    margin-top: 4px;
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.6);
+    margin-bottom: 50px;
 }
+/* news section */
+.news1{
+    margin-bottom: 32px;
+}
+.news-header{
+    margin-bottom: 32px;
+}
+
+.news-card{
+
+    height: 305px;
+    padding: 48px;
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+
+}
+.news-pic{
+    margin-right: 32px;
+}
+.news-pic2{
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.news-subtitle{
+font-size: 16px;
+font-weight:400 ;
+color:rgba(14, 14, 14, 0.7);
+}
+
+
+
+
+
+/* payment design 3333333333333333333333*/
+.payment-box{
+    padding: 44px;
+    margin: 5px;
+    
+  }
+
+ 
+  .pay-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+.pay11{
+    padding: 44px;
+}
+.pay22{
+    padding: 10px;
+
+}
+.pay33{
+    text-align: center;
+}
+  .pay-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .pay-description {
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+ 
+
+  .card-block {
+    width: 230px;
+    height: 90px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 39px;
+    font-weight: 600;
+    color:rgba(14, 14, 14, 0.8);
+    transition: all 0.3s ease;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.08);
+border: none;
+    display: flex;
+  }
+
+  .card-block:hover {
+    background: #C6E4D6;
+    border-color: #008000;
+    color: #008000;
+    transform: scale(1.05);
+  }
+
+  .payment-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+ 
+  
+.amount{
+    margin-bottom: 25px;
+}
+.amount2{width: 1032px;
+ /* height: 40px; */
+    padding: 5px 10px;
+   
+    background: #fff;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.08);
+    border: none;
+    text-align: right;
+}
+.amount2 input[type="text"]{
+    height: 34px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 200;
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+;
+  }
+
+  .donation-button {
+    padding: 10px 20px;
+    background: #006A50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    justify-content: center;
+  }
+
+  .donation-button:hover {
+    background: #000d5f;
+  }
